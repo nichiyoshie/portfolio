@@ -253,7 +253,7 @@
             <p class="count" id="count">1 project</p>
             <div class="project-grid">
                 <article class="card" data-type="tools">
-                    <img class="card-preview" src="assets/img/typing-preview.png" alt="Screenshot of the typing speed test" loading="lazy">
+                    <img class="card-preview" src="assets/img/typing-test.png" alt="Screenshot of the typing speed test" loading="lazy">
                     <div class="tags">
                         <span class="tag">HTML</span>
                         <span class="tag">CSS</span>
@@ -262,14 +262,47 @@
                     <h3>Typing Speed Test</h3>
                     <p>A timed typing test with live WPM and accuracy, colored feedback per letter, and a best score saved for each duration.</p>
                     <details class="built-with">
-                        <summary>How it's built</summary>
-                        <ul>
-                            <li><strong>HTML5:</strong> semantic structure, a hidden text input that captures typing (works on phones too), ARIA labels.</li>
-                            <li><strong>CSS3:</strong> CSS variables, Grid and Flexbox, keyframe animations (blinking cursor, result pop-in), transitions, media queries, <code>prefers-reduced-motion</code>.</li>
-                            <li><strong>JavaScript:</strong> DOM creation and updates, the <code>input</code> event, <code>setInterval</code> and <code>performance.now()</code> for the timer, WPM and accuracy formulas, <code>localStorage</code> for best scores.</li>
-                            <li><strong>Google Fonts:</strong> Inter and Space Grotesk, plus the system monospace font for the text.</li>
-                            <li><strong>Hosting:</strong> GitHub and Vercel, with automatic deploys on every push.</li>
-                        </ul>
+                        <summary>
+                            <span>How it's built</span>
+                            <span class="bw-chev" aria-hidden="true"></span>
+                        </summary>
+                        <div class="bw-panel">
+                            <div class="bw-item">
+                                <img class="bw-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="" loading="lazy">
+                                <div>
+                                    <h4>HTML5</h4>
+                                    <p>Semantic structure and a hidden text input that captures typing, so it works on phones too. ARIA labels for accessibility.</p>
+                                </div>
+                            </div>
+                            <div class="bw-item">
+                                <img class="bw-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="" loading="lazy">
+                                <div>
+                                    <h4>CSS3</h4>
+                                    <p>CSS variables, Grid and Flexbox, a blinking cursor and result animations, media queries, and reduced-motion support.</p>
+                                </div>
+                            </div>
+                            <div class="bw-item">
+                                <img class="bw-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="" loading="lazy">
+                                <div>
+                                    <h4>JavaScript</h4>
+                                    <p>Builds the text in the DOM, reads every keystroke from the <code>input</code> event, times each round with <code>setInterval</code> and <code>performance.now()</code>, calculates WPM and accuracy, and saves best scores in <code>localStorage</code>.</p>
+                                </div>
+                            </div>
+                            <div class="bw-item">
+                                <span class="bw-icon bw-text" aria-hidden="true">Aa</span>
+                                <div>
+                                    <h4>Google Fonts</h4>
+                                    <p>Inter and Space Grotesk, plus the system monospace font for the typing text.</p>
+                                </div>
+                            </div>
+                            <div class="bw-item">
+                                <img class="bw-icon invert" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="" loading="lazy">
+                                <div>
+                                    <h4>Git · GitHub · Vercel</h4>
+                                    <p>Version control with Git, hosted on GitHub and deployed on Vercel, which redeploys automatically on every push.</p>
+                                </div>
+                            </div>
+                        </div>
                     </details>
                     <div class="card-links">
                         <a href="YOUR-TYPING-TEST-URL" target="_blank" rel="noopener noreferrer">Try it →</a>
