@@ -629,3 +629,15 @@ footer { border-top: 1px solid rgba(255, 255, 255, 0.08); }
     background: rgba(255, 255, 255, 0.06);
     border-radius: 4px;
 }
+
+.card-preview {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    object-position: top center;
+    margin-bottom: 1rem;
+    border-radius: 0.6rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
