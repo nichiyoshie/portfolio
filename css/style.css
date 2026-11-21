@@ -641,3 +641,24 @@ footer { border-top: 1px solid rgba(255, 255, 255, 0.08); }
     border-radius: 0.6rem;
     border: 1px solid rgba(255, 255, 255, 0.1);
 }
+
+.card-links {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.card-links a {
+    margin-top: 0;
+    padding: 0.7rem 0;
+    transition: transform 0.2s;
+}
+
+.card-links a + a {
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.card-links a:hover {
+    transform: translateX(4px);
+}
